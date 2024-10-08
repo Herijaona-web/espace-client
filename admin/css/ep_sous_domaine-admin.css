@@ -1,0 +1,160 @@
+
+
+.user-info {
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin:5px;
+}
+.user-info-content{    
+    margin:5px;
+    padding:5px;
+}
+
+.user-details {
+    margin-top: 10px;
+}
+
+.user-field {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.label {
+    font-weight: bold;
+    margin-right: 10px;
+    width: 100px;
+}
+
+.value {
+    color: #333;
+}
+.form-table {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.form-table th {        
+    /* text-align: right; */
+    padding-right: 10px;
+    font-weight: bold;
+    
+}
+
+.submit-button {
+    margin-top: 10px;
+}
+.product-cell {
+    vertical-align: middle;
+}
+.wc-wp-version-gte-53 .select2-container .select2-selection--single {
+    height: 32px !important;
+}
+table.wp-list-table .es_product_link{
+    font-weight: 600;
+    color: #135e96
+}
+.es_product_link:hover{
+    color: rgb(19 94 150 / 77%) !important;
+}
+table.wp-list-table span.wc-featured, table.wp-list-table span.wc-image.custom {
+    float: left;
+    margin-left: 17px;
+}
+#id_costum_ep{
+    width: 4%;
+}
+/* p.form-field.epsd_category_product_field {
+    display: none;
+} */
+
+.block_button_epsd{
+    display: flex;
+    flex-direction: row-reverse;    
+    padding: 10px;
+    clear: both;
+    border-top: 1px solid #dcdcde;
+    background: #f6f7f7;
+}
+.block_button_epsd_click{
+    cursor: pointer;
+}
+a#remove-post-thumbnail-preview {
+    color: #b32d2e;
+}
+a.block_button_epsd_click, a#remove-post-thumbnail-preview {
+    cursor: pointer;
+    text-decoration: underline;
+}
+#postimagediv.ptdi{
+    width: 20%;
+    height: fit-content;
+}
+.postbox-header.sdph{
+    padding: 8px;
+    height: 22px;
+    font-size: 12px;
+}
+.wrap_ep{
+    margin:10px 20px 0 2px;
+}
+#wp-submit {
+    background: transparent;
+    border-color: #2271b1;
+    text-decoration: none;
+    font-weight: 600;
+    color: #2271b1;
+    text-align: center;
+}
+.sdph .my-checkbox {
+    transform: scale(1.2);
+    margin-right: 0;
+    margin-top: -5px !important;
+}
+.my-checkbox-x2 {
+    transform: scale(3);
+    margin: 40px 15px 0 0;
+}
+.sdph .icon_tog{
+    transform: rotate(180deg);
+}
+.sdph .toggle-indicator::before{
+    content: "\f142";
+    display: inline-block;
+    font: normal 20px/1 dashicons;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-decoration: none;
+    position: relative;
+    top: 0.05rem;
+    text-indent: -1px;
+    width: 20px;
+    border-radius: 50%;
+}
+.sdph .handlediv{
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 5px !important;
+}
+.sdph .handlediv:focus {
+    box-shadow: none;
+    outline: 1px solid transparent;
+}
+.sdph h2{
+    flex-grow: 0 !important;
+}
+.sdph .line{
+    margin-top: 6px;
+}
+.ptdi .icon_right::before{
+    content: "\f345";
+    font: normal 20px/1 dashicons;
+    position: relative;
+    transform: rotate(17deg);
+    font-size: 14px;
+    top: 3px;
+}
